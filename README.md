@@ -2,9 +2,8 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/iov-one/starnamed)](https://goreportcard.com/report/github.com/iov-one/starnamed)
 [![GoDoc](https://godoc.org/github.com/iov-one/starnamed?status.svg)](https://pkg.go.dev/github.com/iov-one/starnamed)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]()
-![Discord](https://img.shields.io/discord/906536286653923408?label=discord&logo=discord)
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/iov-one/starnamed/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/906536286653923408?label=discord&logo=discord)](https://discord.com/invite/interchain)
 ## The project
 
 Starname is a blockchain platform that allows users to register and manage their own decentralized domain names, which can be used for various purposes such as sending and receiving cryptocurrency, creating unique identifiers for digital assets, and more. Starname is also a decentralized identity platform that enables users to have a universal username for the blockchain world.
@@ -39,7 +38,7 @@ Once you have installed the starnamed CLI, you can use it to manage your Starnam
   - `starnamed keys add <your_key_name>` *This command will generate a key pair and store it in your local keyring. You will need to use this key pair to sign transactions that you send to the Starname blockchain.* **Copy the mnemonic phrase and keep it safe. You will need it to recover your key pair if you lose it.**
 
 - Adding tokens to your account:
-  - you can swap at the Osmosis swap pool (https://app.osmosis.zone/swap) and transfer the tokens to your account using the IBC protocol. The osmosis app has all the necessary information to do that.
+  - you can swap at the Osmosis swap pool (https://app.osmosis.zone/) and transfer the tokens to your account using the IBC protocol. The osmosis app has all the necessary information to do that.
 
 - Using the starname module:
   - `starnamed tx starname --help` *This command will show you all the available commands that you can use to manage your Starname account.*
